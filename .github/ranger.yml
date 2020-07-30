@@ -1,0 +1,6 @@
+
+merges:
+  # Delete branch after merging the PR
+  - action: delete_branch
+  # Create a new tag after merging the PR
+  - action: tag
