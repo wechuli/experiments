@@ -38,7 +38,7 @@ jobs:
     - shell: bash
       env:
         SUPER_SECRET: ${{ secrets.ENV }}
-      run: echo "$SUPER_SECRET"
+      run: echo "I am the main message, I should not change from a fork"
     - run: npm install
     - run: npm run build --if-present
     - run: npm test
