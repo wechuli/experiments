@@ -37,7 +37,7 @@ jobs:
         
     - shell: bash
  
-      run: echo "I am the main message, I should not change from a fork"
+      run: echo "I am changed"
 
     # - shell: bash
     #   env:
