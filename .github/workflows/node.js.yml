@@ -6,7 +6,7 @@ name: Test Workflows
 on:
   push:
     branches: [ master ]
-  pull_request_t:
+  pull_request_target:
     branches: [ master ]
   
   workflow_dispatch:
