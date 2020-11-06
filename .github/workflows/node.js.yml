@@ -43,6 +43,7 @@ jobs:
     #   env:
     #     SUPER_SECRET: ${{ GITHUB_SHA }}
     #   run: echo "$SUPER_SECRET"
+    - run: echo  ${{ github.event.pull_request.head.sha }}
     - run: npm install
     - run: npm run build --if-present
     - run: npm test
