@@ -1,0 +1,8 @@
+{
+  "name": "experiments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wechuli/experiments.git",
+  "author": "Wechuli <wechulipaul@yahoo.com>",
+  "license": "MIT"
+}
