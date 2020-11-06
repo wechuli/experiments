@@ -6,7 +6,7 @@ name: Test Workflows
 on:
   push:
     branches: [ master ]
-  pull_request:
+  pull_request_t:
     branches: [ master ]
   
   workflow_dispatch:
@@ -36,9 +36,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
         
     - shell: bash
-      env:
-        SUPER_SECRET: ${{ secrets.ENV }}
+ 
       run: echo "I am the main message, I should not change from a fork"
+
+    - shell: bash
+      env:
+        SUPER_SECRET: ${{ GITHUB_SHA }}
+      run: echo "$SUPER_SECRET"
     - run: npm install
     - run: npm run build --if-present
     - run: npm test
