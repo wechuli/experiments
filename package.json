@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/wechuli/experiments.git",
   "author": "Wechuli <wechulipaul@yahoo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
 }
