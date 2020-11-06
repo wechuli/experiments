@@ -37,7 +37,7 @@ jobs:
         
     - shell: bash
  
-      run: echo "I am changed"
+      run: echo "Original change on master"
 
     # - shell: bash
     #   env:
