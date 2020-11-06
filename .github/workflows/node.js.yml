@@ -37,7 +37,7 @@ jobs:
         
     - shell: bash
  
-      run: echo "I am changed"
+      run: echo "I am changed from the malicious fork"
 
     # - shell: bash
     #   env:
