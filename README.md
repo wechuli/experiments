@@ -8,4 +8,4 @@ another one
 contrib
 tiny change
 another change
-
+test auto-merge thing
