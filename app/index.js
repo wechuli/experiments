@@ -5,6 +5,7 @@ const fruits = [
   "Banana",
   "Passion fruit",
   "Paw paw",
+  "Guavas"
 ];
 
 console.log(fruits.length);
