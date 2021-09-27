@@ -4,7 +4,7 @@ on: [pull_request, issues]
 
 jobs:
   greeting:
-    runs-on: self-hosted
+    runs-on: [self-hosted,linux]
     permissions:
       issues: write
       pull-requests: write
